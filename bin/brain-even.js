@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import pusk from '../src/alleven.js';
+import pusk from '../src/even-logic.js';
 
 pusk();

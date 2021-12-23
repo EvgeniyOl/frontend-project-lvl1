@@ -1,5 +1,5 @@
 import getRandomNumber from './randomnum.js';
-import startGame from './logic-even.js'
+import startGame from './index.js'
 
 const gameEvenRules = 'Answer "yes" if the number is even, otherwise answer "no".'; //правила игры
 
