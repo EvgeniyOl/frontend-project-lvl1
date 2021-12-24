@@ -18,7 +18,7 @@ const gameCheck = () => {
   const randomNumber = getRandomNumber(0, progression.length - 1);
   const result = progression[randomNumber];
   progression[randomNumber] = '..';
-  const question = progression;
+  const question = progression.join(' ');
   const checkAnswer = `${result}`;
   return [question, checkAnswer];
 };
