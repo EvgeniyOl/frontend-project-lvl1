@@ -7,3 +7,4 @@ https://asciinema.org/a/bIOOO14r3BinVJWL4zVPQLiVp even-games
 https://asciinema.org/a/GMKy5nPYEBcChEvtSkumZsysu calc-games
 https://asciinema.org/a/i8EWq7e4Hrg5rUi74OA6AZLwg gcd-games
 https://asciinema.org/a/MCYGtaQsaOIsRSbR8XSp4oynD progression-games
+https://asciinema.org/a/MlSBYgZ5mPsKAYQCcsrLb9Fk9 prime-games
