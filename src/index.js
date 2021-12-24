@@ -18,6 +18,6 @@ const startGame = (gameRules, gameCheck) => {
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}!`);
 };
 export default startGame;
