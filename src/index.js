@@ -1,14 +1,14 @@
-import readlineSync from 'readline-sync'; // загружаем библиотеку
+import readlineSync from 'readline-sync';
 
-const round = 3; // устанавливаем по заданию кол-во раундов
+const round = 3;
 
 const startGame = (gameRules, gameCheck) => {
-  console.log('Welcome to the Brain Games!'); // приветствие
-  const name = readlineSync.question('What is your name?: '); // спрашиваем имя и здороваемся
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('What is your name?: ');
   console.log(`Hello, ${name}!`);
-  console.log(gameRules); // правила игры
+  console.log(gameRules);
 
-  for (let i = 1; i <= round; i += 1) { // цикл раундов
+  for (let i = 1; i <= round; i += 1) {
     const [getQuestion, checkAnswer] = gameCheck();
     console.log(`Question: ${getQuestion}`);
     const answer = readlineSync.question('Your answer: ');
