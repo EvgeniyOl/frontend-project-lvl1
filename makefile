@@ -7,12 +7,12 @@ publish:
 lint:
 	npx eslint .
 even-games:
-	node bin/games/brain-even.js
+	node bin/brain-even.js
 calc-games:
-	node bin/games/brain-calc.js
+	node bin/brain-calc.js
 gcd-games:
-	node bin/games/brain-gcd.js
+	node bin/brain-gcd.js
 progression-games:
-	node bin/games/brain-progression.js
+	node bin/brain-progression.js
 prime-games:
-	node bin/games/brain-prime.js
+	node bin/brain-prime.js
