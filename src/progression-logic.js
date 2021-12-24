@@ -12,7 +12,7 @@ const createProgression = (firstNumber, step, length) => {
   return progression;
 };
 const gameCheck = () => {
-  const step = getRandomNumber(1, 50);
+  const step = getRandomNumber(1, 5);
   const firstNumber = getRandomNumber(1, 10);
   const progression = createProgression(firstNumber, step, progrLength);
   const randomNumber = getRandomNumber(0, progression.length - 1);
@@ -20,7 +20,7 @@ const gameCheck = () => {
   progression[randomNumber] = '..';
   const question = progression;
   const checkAnswer = `${result}`;
-  return [String(question), checkAnswer];
+  return [question, checkAnswer];
 };
 const pusk = () => startGame(gameRules, gameCheck);
 
