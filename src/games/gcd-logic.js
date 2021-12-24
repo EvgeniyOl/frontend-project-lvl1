@@ -1,6 +1,6 @@
-import getRandomNumber from './randomnum.js';
-import startGame from './index.js';
-import gcd from './NODNumbers.js';
+import getRandomNumber from '../randomnum.js';
+import startGame from '../index.js';
+import gcd from '../NODNumbers.js';
 
 const gameRules = 'Find the greatest common divisor of given numbers.'; // правила игры
 

@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import pusk from '../src/gcd-logic.js';
+import pusk from '../src/games/gcd-logic.js';
 
 pusk();

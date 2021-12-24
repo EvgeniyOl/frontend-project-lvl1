@@ -1,10 +1,10 @@
-import getRandomNumber from './randomnum.js';
-import startGame from './index.js';
+import getRandomNumber from '../randomnum.js';
+import startGame from '../index.js';
 
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".'; // правила игры
 
 function isPrimeNumber(num) {
-  for (let i = 2; i < num; i++) {
+  for (let i = 2; i < num; i += 1) {
     if (num % i === 0) return false;
   }
   return num > 1;
