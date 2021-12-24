@@ -13,7 +13,7 @@ const startGame = (gameRules, gameCheck) => {
     console.log(`Question: ${getQuestion}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer !== checkAnswer) {
-      console.log(`${answer} is wrong answer ;(. Correct answer was ${checkAnswer}. Let's try again, ${name}`);
+      console.log(`${answer} is wrong answer ;(. Correct answer was ${checkAnswer}. Let's try again, ${name}!`);
       return;
     }
     console.log('Correct!');
