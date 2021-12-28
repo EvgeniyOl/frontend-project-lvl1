@@ -6,7 +6,7 @@
 
 [![Node CI](https://github.com/EvgeniyOl/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/EvgeniyOl/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
-https://asciinema.org/a/bIOOO14r3BinVJWL4zVPQLiVp even-games
+<a href="https://asciinema.org/a/bIOOO14r3BinVJWL4zVPQLiVp" target="_blank"><img src="https://asciinema.org/a/bIOOO14r3BinVJWL4zVPQLiVp.svg" /></a>
 
 https://asciinema.org/a/GMKy5nPYEBcChEvtSkumZsysu calc-games
 
