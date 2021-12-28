@@ -7,9 +7,11 @@
 [![Node CI](https://github.com/EvgeniyOl/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/EvgeniyOl/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 5 Games.
+
 You should enter 3 right answers for successful result. If you enter a wrong answer, a game will finish. You can try again after that.
 
 For install: download package and run: make install
+
 for install in system: npm link
 
 Even-Games (you should determine whether a number is even or not);
