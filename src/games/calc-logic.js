@@ -4,21 +4,25 @@ import startGame from '../index.js';
 const gameRules = 'What is the result of the expression?';
 
 const getRandomOperator = () => {
-  const Operator = ['+', '-', '*'];
-  return Operator[Math.floor(Math.random() * Operator.length)];
+  const statement = ['+', '-', '*'];
+  return statement[getRandomNumber(0, 2)];
 };
-function resultOfCalc(number1, number2, operator) {
-  let result = 0;
-  if (operator === '+') {
-    result = number1 + number2;
-  } else if (operator === '-') {
-    result = number1 - number2;
-  } else {
-    result = number1 * number2;
+const resultOfCalc = (number1, number2, randomOperator) => {
+  let result = '';
+  switch (randomOperator) {
+    case '+':
+      result = number1 + number2;
+      break;
+    case '-':
+      result = number1 - number2;
+      break;
+    case '*':
+      result = number1 * number2;
+      break;
+    default:
   }
   return result;
-}
-
+};
 const gameCheck = () => {
   const num1 = getRandomNumber(1, 10); // первое число
   const num2 = getRandomNumber(1, 10); // второе число
