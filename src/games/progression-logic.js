@@ -16,9 +16,10 @@ const getRoundData = () => {
   const firstNumber = getRandomNumber(1, 10);
   const progression = createProgression(firstNumber, step, progressionLength);
   const randomNumber = getRandomNumber(0, progression.length - 1);
+  const result = progression[randomNumber]
   progression[randomNumber] = '..';
   const question = progression.join(' ');
-  const correctAnswer = progression[randomNumber].toString();
+  const correctAnswer = `${result}`;
   return [question, correctAnswer];
 };
 const startProgressionGame = () => startGame(gameRules, getRoundData);
