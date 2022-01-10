@@ -2,7 +2,7 @@ import getRandomNumber from '../getRandomNumber.js';
 import startGame from '../index.js';
 
 const gameRules = 'What number is missing in the progression?';
-const progrLength = 10;
+const progressionLength = 10;
 
 const createProgression = (firstNumber, step, length) => {
   const progression = [];
@@ -11,17 +11,16 @@ const createProgression = (firstNumber, step, length) => {
   }
   return progression;
 };
-const gameCheck = () => {
+const getRoundData = () => {
   const step = getRandomNumber(1, 5);
   const firstNumber = getRandomNumber(1, 10);
-  const progression = createProgression(firstNumber, step, progrLength);
+  const progression = createProgression(firstNumber, step, progressionLength);
   const randomNumber = getRandomNumber(0, progression.length - 1);
-  const result = progression[randomNumber];
   progression[randomNumber] = '..';
   const question = progression.join(' ');
-  const checkAnswer = `${result}`;
-  return [question, checkAnswer];
+  const correctAnswer = progression[randomNumber].toString();
+  return [question, correctAnswer];
 };
-const pusk = () => startGame(gameRules, gameCheck);
+const startProgressionGame = () => startGame(gameRules, getRoundData);
 
-export default pusk;
+export default startProgressionGame;

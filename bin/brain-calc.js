@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import pusk from '../src/games/calc-logic.js';
+import startCalcGame from '../src/games/calc-logic.js';
 
-pusk();
+startCalcGame();

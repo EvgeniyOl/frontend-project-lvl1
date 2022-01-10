@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import pusk from '../src/games/prime-logic.js';
+import startPrimeGame from '../src/games/prime-logic.js';
 
-pusk();
+startPrimeGame();

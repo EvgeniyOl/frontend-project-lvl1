@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import pusk from '../src/games/even-logic.js';
+import startEvenGame from '../src/games/even-logic.js';
 
-pusk();
+startEvenGame();
